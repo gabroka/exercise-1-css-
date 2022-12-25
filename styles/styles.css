@@ -1,0 +1,37 @@
+.contenedor {
+    background-color: blueviolet;
+    height: 200px;
+    color: aqua;
+}
+
+.interno {
+    /*background-color: rgba(78, 243, 128, 0.856);*/
+    position: absolute;
+    /*z-index: 1;*/
+top: 100px;
+width: auto;
+    right: 25%;
+    left: 25%;
+    height: auto;
+    display: flex;
+   justify-content: center;
+
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    opacity: calc(50%);
+}
+.texto-img {
+    position:relative;
+    top: 100px;
+    /*align-items: center;
+    text-align: center;*/
+    
+}
+p{
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
